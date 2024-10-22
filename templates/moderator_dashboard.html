@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="bg-white shadow rounded-lg p-6">
+    <h2 class="text-2xl font-bold mb-4">Moderator Dashboard</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-yellow-100 p-4 rounded-lg">
+            <h3 class="text-lg font-semibold mb-2">Manage Clips</h3>
+            <ul>
+                <li><a href="#" class="text-yellow-600 hover:underline">View Uploaded Clips</a></li>
+                <li><a href="#" class="text-yellow-600 hover:underline">Combine Clips</a></li>
+            </ul>
+        </div>
+        <div class="bg-purple-100 p-4 rounded-lg">
+            <h3 class="text-lg font-semibold mb-2">Finalized Content</h3>
+            <ul>
+                <li><a href="#" class="text-purple-600 hover:underline">View Finalized Videos</a></li>
+                <li><a href="#" class="text-purple-600 hover:underline">Submit for Admin Review</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

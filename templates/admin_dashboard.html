@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="bg-white shadow rounded-lg p-6">
+    <h2 class="text-2xl font-bold mb-4">Admin Dashboard</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-blue-100 p-4 rounded-lg">
+            <h3 class="text-lg font-semibold mb-2">Manage Users</h3>
+            <ul>
+                <li><a href="#" class="text-blue-600 hover:underline">View All Users</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">Add Moderator</a></li>
+                <li><a href="#" class="text-blue-600 hover:underline">Remove User/Moderator</a></li>
+            </ul>
+        </div>
+        <div class="bg-green-100 p-4 rounded-lg">
+            <h3 class="text-lg font-semibold mb-2">Content Management</h3>
+            <ul>
+                <li><a href="#" class="text-green-600 hover:underline">Create New Post</a></li>
+                <li><a href="#" class="text-green-600 hover:underline">View All Posts</a></li>
+                <li><a href="#" class="text-green-600 hover:underline">Download Finalized Content</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

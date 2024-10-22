@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="bg-white shadow rounded-lg p-6">
+    <h2 class="text-2xl font-bold mb-4">User Dashboard</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-indigo-100 p-4 rounded-lg">
+            <h3 class="text-lg font-semibold mb-2">My Clips</h3>
+            <ul>
+                <li><a href="#" class="text-indigo-600 hover:underline">Upload New Clip</a></li>
+                <li><a href="#" class="text-indigo-600 hover:underline">View My Uploads</a></li>
+            </ul>
+        </div>
+        <div class="bg-pink-100 p-4 rounded-lg">
+            <h3 class="text-lg font-semibold mb-2">Available Posts</h3>
+            <ul>
+                <li><a href="#" class="text-pink-600 hover:underline">View Open Posts</a></li>
+                <li><a href="#" class="text-pink-600 hover:underline">My Contributions</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
